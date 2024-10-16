@@ -2,13 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get(''Welcome, function () {
-    return view('');
-});
-Route::get('/welcome'Welcome, function () {
-    return view('welcome');
+Route::get('/', function () {
+    return view('index'); // merujuk ke file welcome.blade
 });
 
-Route::get('/login'login, function () {
-    return view('login');
+Route::get('/welcome', function () {
+    return view('welcome'); // merujuk ke file welcome.blade
+});
+
+Route::get('/login', function () {
+    return view('login'); // merujuk ke file welcome.blade
 });
