@@ -21,6 +21,7 @@
         <li><a href="#features" class="text-gray-700 hover:text-blue-500">Layanan</a></li>
         <li><a href="#testimonials" class="text-gray-700 hover:text-blue-500">Testimoni</a></li>
         <li><a href="#contact" class="text-gray-700 hover:text-blue-500">Kontak</a></li>
+        <a href="{{ route('about') }}" class="text-1xl font-bold mb-4">Selengkapnya...</a>
     </ul>
 </nav>
 

@@ -7,7 +7,10 @@
 </head>
 <body>
   <h1 class="text-3xl font-bold underline">
-    About Me
+  <header class="bg-teal-300 flex justify-center py-10">
+        <h1 class="text-3xl font-bold underline text-center">ABOUT ME</h1>
+    </header>
+    <h1 class="text-3xl text-center">ABOUT ME</h1>
   </h1>
 </body>
 </html>
